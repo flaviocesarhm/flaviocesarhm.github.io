@@ -1,0 +1,429 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+body footer h5 {
+    background-color: #392223;
+    color: #FAF0F0;
+    text-align: center;
+    padding: 50px;
+}
+body main section {
+    width: 800px;
+    background-color: #C89697;
+    margin-left: auto;
+    padding: 50px;
+    margin-right: auto;
+    margin-top: 25px;
+}
+body header, body main, body footer   {
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FBCFCF;
+    padding: 50px;
+}
+body nav {
+    padding: 50px;
+    background-color: #392223;
+    margin-left: 0px;
+    margin-right: px;
+}
+ul li a:hover  {
+    color: #913425;
+	font-size: 20px;
+}
+nav ul li {
+    width: 91px;
+    height: 24px;
+    color: #F9F2F2;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    background-color: #C89696;
+    margin-left: 11px;
+    border-radius: 50px;
+    margin-right: 4px;
+    border: 3px solid #E9C1C1;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+ul li a {
+    text-decoration: none;
+    color: #F22124;
+    font-size: 20px;
+}
+main section h2 {
+    color: #F3C7C8;
+    font-style: oblique;
+}
+main section p {
+    color: #543737;
+}
+body header {
+    background-color: #AA7F7F;
+    color: #F3BDBE;
+    text-align: center;
+}
+	table{
+		width:100%;
+		border-style: solid;
+		border-width: 1px;
+		border-color: palevioletred;
+		border-collapse: collapse;
+	}
+	table tr{
+		color:darkred;
+		background-color:lightpink
+	}
+	table th, table td{
+		border:2px solid rgba(43,29,30,1.00);
+		padding: 5px;
+		text-align: center;
+	}
+	#table_1{
+		background-color: lightcoral;
+		color:deeppink;
+		font-family:"averia-sans-libre";
+		border-collapse: separate;
+		padding: 30px;
+	}
+#table_1 tbody td:hover  {
+    color: #000000;
+    background-color: #FBFCA8;
+}
+	#table_1 td{
+		background-color: #F0A7A8;
+	}
+	#table_1 th{
+		background-color:#A96464;
+		color:#F7EAEA;
+	}
+	#table_1 tfoot td{
+		background-color:#6E4646;
+		color:#F7EAEA;
+	}
+#tabla_2 {
+    margin-top: 30px;
+    width: 60%;
+    margin-left: auto;
+    padding: 15px;
+    margin-right: auto;
+}
+#tabla_2 tbody tr:hover {
+    background-color: #F8F570;
+    color: #000000;
+    font-size: 16px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#tabla_2 tfoot td {
+    background-color: #9E9192;
+    font-weight: bold;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#tabla_2 tbody td {
+    text-align: left;
+}
+#tabla_2 th {
+    background-color: #E7373A;
+    color: #EDD0D1;
+    text-align: left;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#tabla_3 {
+}
+#tabla_3 tfoot td {
+    background-color: #6C2122;
+    color: #F4C9C9;
+}
+#tabla_3 thead th {
+    color: #EAD9D9;
+    background-color: #A56061;
+}
+#tabla_3 tbody tr:nth-child(odd) {
+    background-color: #E75557;
+    color: #ECB3B4;
+}
+#tabla_3 tbody tr:nth-child(even) {
+    background-color: #F2A0A1;
+    color: #F5080D;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Tablas en HTML</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="html/prctica_uno.html">Inicio&nbsp;</a></li>
+    <li><a href="html/prctica_uno.html">Listas</a></li>
+    <li><a href="html/imagenes.html">Imagenes</a></li>
+    <li><a href="html/tablas.html">Tablas</a></li>
+    <li><a href="html/video.html">Video</a></li>
+    <li><a href="html/audio.html">Audio&nbsp;</a></li>
+	  <li><a href="animación.html">Animación</a>&nbsp;</li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Tabla simple</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus reiciendis architecto error itaque impedit optio, earum voluptate voluptatem rem blanditiis aliquid natus ex vel repellat nisi quas odio unde molestiae, tempora magni eaque laborum! Veritatis doloribus eligendi eum quisquam, magni dolorum natus maiores vel laudantium aliquid fugiat reprehenderit, nobis quos recusandae distinctio. Earum ab facere obcaecati aut dicta impedit officiis deserunt explicabo repellendus iusto ipsum magni praesentium, accusantium alias quam perferendis quos ratione inventore, facilis aliquam delectus. Explicabo voluptates et fugiat, laudantium cupiditate ab ullam, incidunt iste doloribus sapiente, excepturi consequuntur vitae. Labore hic esse accusamus odit saepe velit, repellat!</p>
+	<table border="1">
+    <thead>
+	  <tr>
+		<th>Nombre</th>
+		  <th>Apellido Paterno</th>
+		   <th>Apellido Materno</th>
+		  <th>Edad</th>
+		  <th>Cooperación</th>
+		  </tr>
+		</thead>
+		<tbody>
+		 <tr>
+			<td>Ariana</td>
+			<td>Grande</td>
+			<td>Butera</td>
+			<td>29</td>
+			<td>100</td>
+	     </tr>
+			<tr>
+				<td>Lana</td>
+				<td>Del</td>
+				<td>Rey</td>
+				<td>37</td>
+				<td>50</td>
+			</tr>
+			<tr>
+				<td>Kendall</td>
+				<td>Jenner</td>
+				<td>Kardashian</td>
+				<td>27</td>
+				<td>25</td>
+			</tr>
+			<tr>
+				<td>Doja</td>
+				<td>Cat</td>
+				<td>la top</td>
+				<td>27</td>
+				<td>150</td>
+			</tr>
+			<tr>
+				<td>Jisoo</td>
+				<td>Black</td>
+				<td>Pink</td>
+				<td>25</td>
+				<td>100</td>
+			</tr>			
+		</tbody>
+		<tfoot>
+		    <tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>Total</td>
+				<td>375</td>
+			</tr>
+		</tfoot>
+		</table>
+</section>
+  <section>
+    <h2>Tabla modificada a partir de un identificador</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt officia ex ipsum, id recusandae ullam autem nam tempore nesciunt nihil atque, maxime, dolore quaerat reiciendis eaque! Delectus dolor aliquid distinctio laudantium eius accusamus fugiat sunt quasi quo quibusdam quisquam odit harum recusandae deserunt esse perferendis iste, excepturi adipisci accusantium, debitis vero voluptatem quae nesciunt? Nemo deleniti quae earum tempora, perferendis explicabo impedit velit, atque nisi in possimus. Nihil, possimus, obcaecati. Vel labore ab omnis cumque fugiat, doloribus sapiente, totam quo officiis nobis dolorum aspernatur dolore velit culpa eveniet tempore incidunt? Dolor architecto quis, delectus at autem id animi ipsam inventore.</p>
+    <table id="table_1">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido Paterno</th>
+          <th>Apellido Materno</th>
+          <th>Edad</th>
+          <th>Cooperación</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ariana</td>
+          <td>Grande</td>
+          <td>Butera</td>
+          <td>29</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Lana</td>
+          <td>Del</td>
+          <td>Rey</td>
+          <td>37</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Kendall</td>
+          <td>Jenner</td>
+          <td>Kardashian</td>
+          <td>27</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Doja</td>
+          <td>Cat</td>
+          <td>la top</td>
+          <td>27</td>
+          <td>150</td>
+        </tr>
+        <tr>
+          <td>Jisoo</td>
+          <td>Black</td>
+          <td>Pink</td>
+          <td>25</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Total</td>
+          <td>375</td>
+        </tr>
+      </tfoot>
+    </table>
+</section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus mollitia vero voluptatem ea! Perferendis accusamus labore non, alias et, omnis, nam animi nobis nihil optio blanditiis amet eum. Odit provident quidem maiores reprehenderit voluptatum voluptate quo, aperiam tenetur earum, eum ipsam, quisquam? Maiores mollitia quidem, repudiandae eum vero dolor eligendi. Voluptatem laboriosam, eos provident, omnis excepturi accusamus corporis, deleniti tempora odio itaque enim repudiandae earum quos aut totam natus ratione culpa est ullam adipisci numquam! Ullam dolorem modi, accusamus fugiat hic vero doloremque molestias fugit, minima porro laudantium quo culpa a ipsum accusantium consequatur sint unde tempora iusto ducimus soluta.</p>
+    <table border="1" id="tabla_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido Paterno</th>
+          <th>Apellido Materno</th>
+          <th>Edad</th>
+          <th>Cooperación</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ariana</td>
+          <td>Grande</td>
+          <td>Butera</td>
+          <td>29</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Lana</td>
+          <td>Del</td>
+          <td>Rey</td>
+          <td>37</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Kendall</td>
+          <td>Jenner</td>
+          <td>Kardashian</td>
+          <td>27</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Doja</td>
+          <td>Cat</td>
+          <td>la top</td>
+          <td>27</td>
+          <td>150</td>
+        </tr>
+        <tr>
+          <td>Jisoo</td>
+          <td>Black</td>
+          <td>Pink</td>
+          <td>25</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Total</td>
+          <td>375</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est iste labore praesentium, doloribus dolorum vero itaque ex aperiam, vel harum enim adipisci voluptate atque in at quibusdam sapiente amet laborum quam porro, veniam deleniti aut, possimus. Architecto tenetur dicta error at voluptates, eos, sequi numquam? In dolor aperiam vero nesciunt neque alias sed maxime ipsam provident, molestias sunt quae porro, adipisci voluptatem quam eaque. Tempora eveniet aliquam est, excepturi soluta expedita laborum. Sit ullam hic laudantium sint cum, quis dignissimos doloremque quia ducimus blanditiis beatae fuga, sapiente, quo assumenda rerum animi? Velit blanditiis laudantium quae voluptates eaque possimus quas veritatis.</p>
+    <table id="tabla_3">
+		<thead>
+		<tr>
+          <td>Nombre</td>
+          <td>Apellidos</td>
+          <td>Correo</td>
+          <td>Telefono</td>
+		  <td>Coperación</td>
+        </tr>
+		</thead>
+      <tbody>
+        
+        <tr>
+          <td>Kim</td>
+          <td>Kardashian Jenner</td>
+          <td>kimk@gmail.com</td>
+          <td>222 865 3189</td>
+			<td>100</td>
+        </tr>
+        <tr>
+          <td>Kyle </td>
+          <td>Kardashian Jenner</td>
+          <td>kylej@gmail.com</td>
+          <td>222 456 2367</td>
+			<td>50</td>
+        </tr>
+        <tr>
+          <td>Kloeh</td>
+          <td>Kardashian Jenner</td>
+          <td>kloo@gmail.com</td>
+          <td>222 984 8943</td>
+			<td>50</td>
+        </tr>
+        <tr>
+          <td>Kris</td>
+          <td>Kardashian Jenner</td>
+          <td>kriskj@gmail.com</td>
+          <td>222 984 7934</td>
+			<td>100</td>
+        </tr>
+        <tr>
+          <td>Kortney</td>
+          <td>Kardashian Jenner</td>
+          <td>kory@gmail.com</td>
+          <td>222 484 6089</td>
+			<td>200</td>
+        </tr>
+        <tr>
+          <td>Rob </td>
+          <td>Kardashian Jenner</td>
+          <td>robk@gamil.com</td>
+          <td>222 674 7844</td>
+			<td>50</td>
+        </tr>
+      </tbody>
+		<tfoot>
+		 <tr>
+			<td>Pie de tabla</td>
+			<td></td>
+			<td></td>
+			<td>total</td>
+			 <td>550</td>
+			 </tr>
+		</tfoot>
+    </table>
+  </section>
+</main>
+<footer>
+  <h5>Elaborado por Flavio Cesar Hernandez Morales</h5>
+</footer>
+</body>
+</html>

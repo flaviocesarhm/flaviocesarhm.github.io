@@ -1,0 +1,221 @@
+@charset "utf-8";
+*  {
+    padding: 0px;
+    margin: 0px;
+}
+header, nav, main, footer{
+    padding: 20px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h1 {
+    width: auto;
+    height: 100px;
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-size: 48px;
+}
+
+
+footer h5 {
+    color: #FEFEFE;
+    text-align: center;
+    font-family: merienda-one;
+    font-style: normal;
+    font-weight: 400;
+}
+main section p {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+nav ul li {
+    width: 92px;
+    height: 21px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FEFEFE;
+    text-align: center;
+    border-radius: 50px;
+    border: 4px solid #E5BCEF;
+    background-color: #960CB7;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: #F8F7F8;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    border-radius: 20px;
+    background-color: #711886;
+}
+ul li a {
+    color: #D49FE0;
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    padding: 10;
+    font-weight: 400;
+}
+main {
+    background-color: #E28DF6;
+}
+main section {
+    width: 800px;
+    padding: 20px;
+    background-color: #960CB7;
+    color: #E3C8E9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav {
+    background-color: #A322C1;
+}
+
+header {
+    background-color: #4A095A;
+    height: auto;
+}
+
+main section h2 {
+    padding-bottom: 20px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+
+footer {
+    background-color: #280031;
+    height: 50px;
+}
+#img1 {
+    width: 54%;
+    height: auto;
+}
+#img0 {
+    width: 303px;
+    height: 250px;
+}
+.img_1 {
+    width: 41%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    border: 18px solid #F0CBF9;
+}
+#img2 {
+    height: auto;
+    width: 22%;
+    float: left;
+    padding-right: 20px;
+    text-align: justify;
+}
+main section p {
+    text-align: justify;
+}
+
+#img3 {
+    height: auto;
+    width: 51%;
+    float: right;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#fondo_1 {
+    background-image: url(../imagenes/jpg/sil.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background-size: 107% auto;
+}
+.p1 {
+    color: #D741FA;
+}
+.p2 {
+    background-color: #A119C1;
+}
+.img_filter_size {
+    height: auto;
+    margin: 5px;
+    width: 256px;
+}
+.escala_grises {
+    filter: grayscale(100%);
+}
+.sepia {
+    filter: sepia(100%);
+}
+.opacidad {
+    filter: opacity(50%);
+}
+.brillo {
+    filter: brightness(150%);
+}
+.contraste {
+    filter: contrast(150%);
+}
+.negativo {
+    filter: invert(100%);
+}
+.desenfocar {
+    filter: blur(3px);
+}
+.sombra {
+    filter: drop-shadow(5px 5px 20px white);
+}
+.img_fotoperfil {
+    float: right;
+    padding-left: 20px;
+    border-bottom: thick solid #FBFBFB;
+}
+.centrar {
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video_1 {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+    border: 13px solid #3F004E;
+}
+.img_2 {
+    width: 16%;
+    height: auto;
+    float: left;
+    padding-left: 0px;
+    padding-right: 17px;
+}
+.video_2 {
+    width: 50%;
+}
+.animate__delay-2s {
+}
+.animate__delay-3s {
+}
+.animate__slower {
+}
+.img_3 {
+    width: 20%;
+    height: auto;
+    float: right;
+    padding-left: 17px;
+}
+.animate__delay-5s {
+}
+.animate_repeat-3s {
+}
